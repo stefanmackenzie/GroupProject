@@ -1,0 +1,1 @@
+For the game images to work you need to run this in Firefox before hitting the roll dice button.

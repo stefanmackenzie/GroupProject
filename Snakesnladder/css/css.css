@@ -1,0 +1,157 @@
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color:#fefefe;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar ---> this will be changed when adding login button*/
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 30px 201px;
+    text-decoration: none;
+    font-size: 27px;
+    width: 3.67%;
+}
+
+/* Style the links inside the navigation bar ---> this will be to push the login button to the right  */
+
+.topnav #login {
+    float: right;
+    color: black;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #bbe1fa;
+    color: white;
+}
+
+body {
+    background-color:#c4c1b4;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#pageName {
+    color: white;
+    padding: 24px 56px;
+    background-color: rgb(24, 31, 31);
+    height: fit-content;
+    width: 350px;
+}
+
+/* Home Page */
+
+.homePageButton {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 85px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+#game{
+    opacity: 0.3;
+    background-image:url('../imgs/snakesHome.jpeg');
+    background-repeat:no-repeat;
+}
+
+#results{
+    opacity: 0.3;
+    background-image:url('../imgs/results.png');
+    background-repeat:no-repeat;
+}
+
+#about{
+    opacity: 0.3;
+    background-image:url('../imgs/aboutus.jpg');
+    background-repeat:no-repeat;
+}
+
+#github{
+    opacity: 0.3;
+    background-image:url('../imgs/git.png');
+    background-repeat:no-repeat;
+    background-size:60%;
+}
+
+#emailContact{
+    opacity: 0.3;
+    background-image:url('../imgs/outlook.jpg');
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position-y: -200px;
+}
+
+#game:hover, #results:hover, #about:hover, #github:hover, #emailContact:hover{
+    opacity: 1;
+}
+
+.Case1, .Case2, .Case3 div {
+    padding: 1px;
+}
+
+.Case1, .Case2, .Case3 {
+    display: flex;
+    height: 300px;
+}
+
+.Case4 {
+    display: flex;
+    height: 500px;
+}
+
+.Box1 {
+    flex: 2;
+}
+
+.Box3 {
+    flex: 1;
+}
+
+
+
+/* game div stuff */
+
+#gameDiv{ 
+    position: relative;
+    top: 25%;
+    margin: 0 auto;
+    border-radius:10px;
+    padding:50px 50px;
+    background-color:#edece8;
+    text-align:center;
+    font-family:Verdana;
+    font-size:12px;color: black;    
+    border:3px black;
+    height:230px;width:740px;
+    overflow:auto;
+    width: 95%;
+}
+
+.sectionDiv{
+    height: 1000px;
+    border-style: solid;
+}
+.sectionDiv2{
+    height: 10px;
+}
